@@ -13,3 +13,5 @@ ui:
   chapter_name: 'Capítulo '
   
 before_chapter_script: "_util.R"
+
+book_filename: "PDF_seminario" 
