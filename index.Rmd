@@ -1,6 +1,6 @@
 --- 
-title: "A Minimal Book Example"
-author: "John Doe"
+title: "Primeiro livro..."
+author: "Cristian Villegas"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
@@ -58,3 +58,13 @@ knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
 ), 'packages.bib')
 ```
+
+
+```{r}
+library(ggplot2)
+diamonds
+ggplot(diamonds, aes(x = carat)) +
+  geom_density()+
+  facet_wrap(~cut)
+```
+
