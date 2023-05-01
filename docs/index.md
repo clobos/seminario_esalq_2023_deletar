@@ -64,7 +64,7 @@ diamonds
 ```
 
 ```
-## # A tibble: 53,940 × 10
+## # A tibble: 53,940 x 10
 ##    carat cut       color clarity depth table price     x     y     z
 ##    <dbl> <ord>     <ord> <ord>   <dbl> <dbl> <int> <dbl> <dbl> <dbl>
 ##  1  0.23 Ideal     E     SI2      61.5    55   326  3.95  3.98  2.43
@@ -77,7 +77,7 @@ diamonds
 ##  8  0.26 Very Good H     SI1      61.9    55   337  4.07  4.11  2.53
 ##  9  0.22 Fair      E     VS2      65.1    61   337  3.87  3.78  2.49
 ## 10  0.23 Very Good H     VS1      59.4    61   338  4     4.05  2.39
-## # … with 53,930 more rows
+## # ... with 53,930 more rows
 ```
 
 ```r
@@ -86,5 +86,5 @@ ggplot(diamonds, aes(x = carat)) +
   facet_wrap(~cut)
 ```
 
-![](index_files/figure-epub3/unnamed-chunk-4-1.png)<!-- -->
+![](index_files/figure-latex/unnamed-chunk-4-1.pdf)<!-- --> 
 
